@@ -22,7 +22,7 @@ function generateRandomCard() {
     cardContainer.style.borderRadius = "10px";
     cardContainer.style.backgroundColor = "white";
     cardContainer.style.position = "relative";
-    cardContainer.style.margin = "20px";
+    cardContainer.style.margin = "20px auto";
   
     // Añadir palo superior
     const topSuit = document.createElement("div");
